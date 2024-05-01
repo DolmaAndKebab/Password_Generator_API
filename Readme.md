@@ -1,7 +1,7 @@
 # Password_Geneartor_API
 
 A simple password Generator API that does what it says it does.
-Easily generate Password!
+Easily generate Passwords!
 
 # Hosting
 

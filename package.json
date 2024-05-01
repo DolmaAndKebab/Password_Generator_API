@@ -1,0 +1,41 @@
+{
+  "name": "password_generator_api",
+  "version": "1.0.0",
+  "description": "Easily generate passwords!",
+  "main": "./Index.js",
+  "type": "module",
+  "types": "./Types/*",
+  "scripts": {
+    "test": "vitest",
+    "start": "node .",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DolmaAndKebab/Password_Generator_API.git"
+  },
+  "keywords": [
+    "Typescript",
+    "TS",
+    "JS",
+    "Javascript",
+    "Express",
+    "API"
+  ],
+  "author": "DolmaAndKebab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DolmaAndKebab/Password_Generator_API/issues"
+  },
+  "homepage": "https://github.com/DolmaAndKebab/Password_Generator_API#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.3"
+  }
+}
